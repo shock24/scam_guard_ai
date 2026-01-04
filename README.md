@@ -20,11 +20,19 @@ scam_guard_ai
     - workflow.py
 - llm
     - prompts
+        - react.md
+    - prompts.py
 - pipeline
     - scam_detector
+        - builder.py
         - detector.py
+        - executor.py
+        - parser.py
 - streamlit
     - app.py
+- .gitignore
+- LICENSE
+- README.md
 - main.py
 - utils.py
 - config.py
