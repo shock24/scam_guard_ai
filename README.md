@@ -3,8 +3,14 @@ Objective: Build an LLM application for detecting scam messages.
 
 LLM Used: flash-lite
 
-Steps to use repository
-
+## Steps to use repository
+- Clone this repo
+- Create a virtual environment
+    - `Conda: conda create -n <venv_name> python==3.12 -y`
+- Activate virtual environment
+    - `Conda: conda activate <venv_name>`
+- Install dependencies
+    - `pip install -r requirements.txt`
 
 
 ## Project Folder
@@ -20,13 +26,9 @@ scam_guard_ai
 - main.py
 - utils.py
 - config.py
-- re
+- requirements.txt
 
-
-
-## Project Stucture:
-Scam_Guard_AI - Root folder for the Scam Detection AI project
-
+## Scam Detection AI Project Structure Description
 - experiments >> Sandbox area for testing ideas and experiments
 - workflow.ipynb - Notebook to experiment, test prompts, and run trial code
 - llm - All Large Language Model–related code and assets
