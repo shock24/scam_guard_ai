@@ -20,4 +20,4 @@ scam_guard_ai
 - main.py
 - utils.py
 - config.py
-- re
+- requirements.txt
