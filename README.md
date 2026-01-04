@@ -16,7 +16,8 @@ LLM Used: flash-lite
 ## Project Folder
 scam_guard_ai
 - experiments
-    - ex1.ipynb
+    - workflow.ipynb
+    - workflow.py
 - llm
     - prompts
 - pipeline
