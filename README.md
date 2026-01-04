@@ -22,6 +22,7 @@ scam_guard_ai
     - prompts
 - pipeline
     - scam_detector
+        - detector.py
 - streamlit
     - app.py
 - main.py
