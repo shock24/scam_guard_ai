@@ -2,7 +2,7 @@
 This file contains main prompt development functionality.
 """
 
-from llm.prompt import generate_prompt
+from llm.prompts import generate_prompt
 
 def build_prompt(message: str, strategy: str = "react") -> str:
     """
